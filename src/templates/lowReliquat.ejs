@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Low Reliquat</title>
+</head>
+
+<body style="margin: 0;text-align:center;">
+    <table class="" style="
+          width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+          border: 1px solid #eeeeee;
+          border-collapse: collapse;
+          border-spacing: 0;
+          background-color: #ffffff;
+          text-align: center;
+        ">
+        <tbody>
+            <tr>
+                <td style="padding-bottom: 20px;
+                        padding-top: 20px;
+                        padding-left: 0;
+                        padding-right: 0;
+                        background-color: #f8f8f8;">
+                    <img src="<%= logourl %>" width="159" height="57" alt="" style="width: 157px; height: auto" />
+                </td>
+            </tr>
+
+            <tr>
+                <td style="
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-right: 0;
+                padding-left: 0;
+                font-size: 30px;
+                font-family: sans-serif;
+                color: #000000;
+                font-weight: 700;
+              ">
+                    Low Reliquat
+                </td>
+            </tr>
+
+            <tr>
+                <td style="
+                padding-top: 0;
+                padding-bottom: 30px;
+                padding-right: 30px;
+                padding-left: 30px;
+              ">
+                    <table style="
+                  width: 100%;
+                  border-collapse: collapse;
+                  border-spacing: 0;
+                  background-color: #ffffff;
+                ">
+                        <tbody>
+
+                            <tr>
+                                <td style="
+                padding-top: 0;
+                padding-bottom: 50px;
+                padding-right: 30px;
+                padding-left: 30px;
+              ">
+                                    <table style="
+                  width: 100%;
+                  border-collapse: collapse;
+                  border-spacing: 0;
+                  background-color: #ffffff;
+                ">
+                                        <tbody>
+                                            <tr>
+                                                <td style="padding: 10px 0">
+                                                    <p style="
+                          margin: 0;
+                          font-size: 16px;
+                          font-family: sans-serif;
+                          color: #000000;
+                          font-weight: 700;
+                          text-align: left;
+                        ">
+                                                        Hello <%= userName %>,
+                                                    </p>
+                                                    <p style="
+                          margin: 0;
+                          padding-top: 10px;
+                          font-size: 16px;
+                          font-family: sans-serif;
+                          color: #000000;
+                          font-weight: 500;
+                          line-height: 24px;
+                          text-align: left;
+                        ">
+                                                        Hope you are doing well!
+                                                    </p>
+
+                                                    <p style="
+                          margin: 0;
+                          padding-top: 10px;
+                          font-size: 16px;
+                          font-family: sans-serif;
+                          color: #000000;
+                          font-weight: 500;
+                          line-height: 24px;
+                          text-align: left;
+                        ">
+                                                        It has come to the notice that your reliquat is too low for the
+                                                        month of <%= startDate %> to <%= endDate %>, please take
+                                                                necessary actions to rectify the
+                                                                same.
+
+                                                    </p>
+
+                                                    <p style="
+                  margin-top: 10px;
+                  padding-top: 10px;
+                  font-size: 16px;
+                  font-family: sans-serif;
+                  color: #b5121b;
+                  font-weight: 500;
+                  line-height: 24px;
+                  text-align: left;
+                ">
+                                                        Your current Reliquat is <%= reliquat %>
+                                                    </p>
+
+
+                                                    <p style="
+                          margin-top: 0;
+                          padding-top: 10px;
+                          font-size: 16px;
+                          font-family: sans-serif;
+                          color: #000000;
+                          font-weight: 500;
+                          line-height: 24px;
+                          text-align: left;
+                        ">
+                                                        If you have any queries on this please let me know for the same.
+                                                    </p>
+
+
+
+                                                    <p style="
+                          margin: 0;
+                          padding-top: 10px;
+                          font-size: 16px;
+                          font-family: sans-serif;
+                          color: #000000;
+                          font-weight: 500;
+                          line-height: 24px;
+                          text-align: left;
+                        ">
+                                                        Thank you.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+
+                            <%if(checkReliquatUrl){%>
+                                <tr>
+                                    <td style="
+                                      padding-top: 50px;
+                                      padding-bottom: 50px;
+                                      padding-right: 0;
+                                      padding-left: 0;
+                                      font-size: 20px;
+                                      font-family: sans-serif;
+                                      color: #000000;
+                                      font-weight: 700;
+                                      text-align: center;
+                                    ">
+
+                                        <strong><a href=<%-checkReliquatUrl%>>Check
+                                                Reliquat</a>
+                                        </strong><br />
+
+                                    </td>
+                                </tr>
+                                <%}%>
+
+                                    <tr>
+                                        <td style="
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 30px;
+                padding-left: 30px;
+                background-color: #b5121b;
+                font-size: 16px;
+                        font-family: sans-serif;
+                        color: #ffffff;
+                        font-weight: 500;
+                        line-height: 24px;
+              ">
+                                            Copyright @ LRED
+                                        </td>
+                                    </tr>
+                        </tbody>
+                    </table>
+</body>
+
+</html>

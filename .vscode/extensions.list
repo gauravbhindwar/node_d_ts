@@ -1,0 +1,17 @@
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension ecmel.vscode-html-css
+code --install-extension esbenp.prettier-vscode
+code --install-extension k--kato.intellij-idea-keybindings
+code --install-extension mikestead.dotenv
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension Arjun.swagger-viewer
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension donjayamanne.githistory
+code --install-extension eamodio.gitlens
+code --install-extension kakumei.ts-debug
+code --install-extension Meezilla.json
+code --install-extension mhutchie.git-graph
+code --install-extension mtxr.sqltools
+code --install-extension rvest.vs-code-prettier-eslint
+code --install-extension streetsidesoftware.code-spell-checker

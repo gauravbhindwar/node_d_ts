@@ -1,0 +1,38 @@
+export interface ClientAttributes {
+  id: number;
+  clienttype: string;
+  code: string;
+  client: string;
+  taxAmount: number;
+  weekendDays: string;
+  email: string;
+  contractN: string;
+  address: string;
+  contractTagline: string;
+  country: string;
+  startdateatutc: string;
+  enddateatutc: string;
+  startDate: Date;
+  endDate: Date;
+  autoUpdateEndDate: number;
+  timeSheetStartDay: number;
+  approvalEmail: string[];
+  isShowPrices: boolean;
+  isShowCostCenter: boolean;
+  isShowCatalogueNo: boolean;
+  isResetBalance: boolean;
+  startMonthBack: number;
+  isCountCR: boolean;
+  isShowNSS: boolean;
+  timezone: string;
+  currency: string;
+  isShowCarteChifa: boolean;
+  isShowSalaryInfo: boolean;
+  isShowRotation: boolean;
+  isShowBalance: boolean;
+  logo: string;
+  stampLogo: string | null;
+  segment: string;
+  subSegment: string;
+  bonusType: string;
+}

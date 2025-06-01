@@ -1,0 +1,6 @@
+build/
+logs/
+node_modules/
+*.md
+# /src/models/
+sequelize/migrations

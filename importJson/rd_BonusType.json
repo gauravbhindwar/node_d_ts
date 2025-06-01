@@ -1,0 +1,2013 @@
+{
+"data": [
+	{
+		"Id" : "1A091907-0772-4B16-8E01-0015D1D6EB34",
+		"ClientId" : "422A518B-EDA6-4CEA-8555-71AA9DE1A0D6",
+		"Name" : "T",
+		"Value" : "70.0000",
+		"DailyCost" : "70.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "C21FFFC7-6752-4F30-8687-0375C7A3A80D",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Rig 3",
+		"Value" : "0.0000",
+		"DailyCost" : "5102.2200",
+		"Code" : "R",
+		"NamePrint" : "R",
+		"Active" : 0
+	},
+	{
+		"Id" : "1EC5A515-8931-4394-B011-056C347FF488",
+		"ClientId" : "28E76C2A-22FA-4B9C-9DA2-53AA715D4220",
+		"Name" : "T2",
+		"Value" : "120.0000",
+		"DailyCost" : "127.2000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "D0F33E85-8E12-4578-89D0-05F1625768F7",
+		"ClientId" : "A8D53DD4-EAE9-47F4-9C01-C2F4CE2FA4F6",
+		"Name" : "Present",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "1DE2BD80-E8B8-4C0F-9D4B-094014AEC1E4",
+		"ClientId" : "A7868E4D-6D61-40D6-A455-66EF7F7F9596",
+		"Name" : "P",
+		"Value" : "365.0000",
+		"DailyCost" : "365.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "85D57617-12E1-4457-BA0E-09EE7C638C19",
+		"ClientId" : "5C04929A-7728-4BC8-B206-CB73DDFA86F8",
+		"Name" : "P",
+		"Value" : "0.0000",
+		"DailyCost" : "400.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "E63E3853-C43F-490C-A192-0A00C3EB2847",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 2",
+		"Value" : "0.0000",
+		"DailyCost" : "21105.5800",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "37A795F9-74EE-4539-9BFD-0A12BC28AAA8",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Rig 5",
+		"Value" : "0.0000",
+		"DailyCost" : "4510.0000",
+		"Code" : "R",
+		"NamePrint" : "R",
+		"Active" : 0
+	},
+	{
+		"Id" : "46BDA16A-77A3-4B09-A8D8-12210866C377",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Present",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "70830F64-1AA5-4263-86E1-127FD972263C",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "P2",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 0
+	},
+	{
+		"Id" : "BF63570D-DE2A-4377-B09B-13AD013D01DA",
+		"ClientId" : "422A518B-EDA6-4CEA-8555-71AA9DE1A0D6",
+		"Name" : "P",
+		"Value" : "140.0000",
+		"DailyCost" : "140.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "37ED0106-3C38-465C-9102-149671BD40A0",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Hassi",
+		"Value" : "0.0000",
+		"DailyCost" : "13341.5400",
+		"Code" : "H",
+		"NamePrint" : "Hassi",
+		"Active" : 0
+	},
+	{
+		"Id" : "66B2DADD-6FE4-467A-94F4-169DC12A0F0D",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 27",
+		"Value" : "0.0000",
+		"DailyCost" : "4127.4600",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "536D2704-E947-4931-98BF-1809BF1516FC",
+		"ClientId" : "4B3E84B9-8E28-4340-967A-ED2212C8FACB",
+		"Name" : "T",
+		"Value" : "0.0000",
+		"DailyCost" : "150.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "8D7DA7DF-47C4-4EA6-B84C-1A3F97B9B43E",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 7",
+		"Value" : "0.0000",
+		"DailyCost" : "1375.8200",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 1
+	},
+	{
+		"Id" : "4F734D35-B140-4217-AA07-1BD55AF840C8",
+		"ClientId" : "3FEFB78F-6CC8-4B18-9C5B-870D98ED91E1",
+		"Name" : "P",
+		"Value" : "392.0000",
+		"DailyCost" : "392.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "4B5FD93C-B0D3-4617-B630-1CEFE5AB700C",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Present 5",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 0
+	},
+	{
+		"Id" : "3A14AC6A-1CD2-4CA9-A713-1E58C099613F",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 17",
+		"Value" : "0.0000",
+		"DailyCost" : "22013.1300",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "BEBBD65A-4615-45E4-8752-1E8657B2D188",
+		"ClientId" : "A98A6F5A-DAD9-49F0-A41C-A90AA99BA6B6",
+		"Name" : "Rig",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "57C1F194-6896-4851-AF96-221AF3C4D5EE",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Salary",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "S ",
+		"NamePrint" : "Salary",
+		"Active" : 1
+	},
+	{
+		"Id" : "32B85637-417A-4C34-9434-23AE016D28F8",
+		"ClientId" : "1ACBED20-5FDC-4556-A4A5-435BA13F693F",
+		"Name" : "Base",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 0
+	},
+	{
+		"Id" : "402A082B-1813-4DF7-8674-2437A000F758",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 4",
+		"Value" : "0.0000",
+		"DailyCost" : "5159.3300",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 1
+	},
+	{
+		"Id" : "E2B0DCF2-BB5C-45C7-83ED-26B4C345122E",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 12",
+		"Value" : "0.0000",
+		"DailyCost" : "11006.5600",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "05755DF5-3E88-4592-B513-27D466CF98DC",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Job",
+		"Value" : "0.0000",
+		"DailyCost" : "6879.1000",
+		"Code" : "J",
+		"NamePrint" : "Job",
+		"Active" : 1
+	},
+	{
+		"Id" : "EE077BB1-29A9-4F30-8DCF-27F5C0C6A7F1",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "T7",
+		"Value" : "0.0000",
+		"DailyCost" : "298.5900",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "1B21EF3B-C35C-43E6-AE4A-299EECCAA819",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 6",
+		"Value" : "0.0000",
+		"DailyCost" : "5534.8500",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "D681C580-1F4A-4E15-936D-2B13802912B8",
+		"ClientId" : "28E76C2A-22FA-4B9C-9DA2-53AA715D4220",
+		"Name" : "T1",
+		"Value" : "100.0000",
+		"DailyCost" : "106.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "29E65D25-7071-4D3A-8E12-2C90B9154240",
+		"ClientId" : "D2841686-BC3E-4DB3-B6EE-A5692660BAEA",
+		"Name" : "P",
+		"Value" : "415.0000",
+		"DailyCost" : "475.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "7470EE2D-D086-438A-9843-2CD426F00278",
+		"ClientId" : "A30ABB1E-EC94-4BF7-BDD0-A7DE125A291A",
+		"Name" : "T",
+		"Value" : "0.0000",
+		"DailyCost" : "200.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "3D497AC4-A970-442D-9215-2D1AD02C74CF",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "T5",
+		"Value" : "315.0000",
+		"DailyCost" : "368.8500",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "EF02320D-4D6B-40C9-BA86-2FB829DEBE72",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 1",
+		"Value" : "0.0000",
+		"DailyCost" : "36003.6300",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "E29CE972-B7CB-4B20-AAD3-3047AEC125A3",
+		"ClientId" : "A30ABB1E-EC94-4BF7-BDD0-A7DE125A291A",
+		"Name" : "P",
+		"Value" : "0.0000",
+		"DailyCost" : "400.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "C57F89E8-752B-4559-8A71-32299705A47A",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 13",
+		"Value" : "0.0000",
+		"DailyCost" : "34395.5200",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "4F045EC5-FDB5-4C15-880D-324845E03C5B",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 6",
+		"Value" : "0.0000",
+		"DailyCost" : "3439.5500",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 1
+	},
+	{
+		"Id" : "54958CCD-BFF5-4C04-A035-36DFE968F147",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Bits",
+		"Value" : "0.0000",
+		"DailyCost" : "20336.8200",
+		"Code" : "B",
+		"NamePrint" : "Bits",
+		"Active" : 0
+	},
+	{
+		"Id" : "41C8B26C-5152-4D65-AB95-37C75482278F",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base",
+		"Value" : "25600.0000",
+		"DailyCost" : "36476.5500",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 1
+	},
+	{
+		"Id" : "A6FEDFC2-211A-4CA7-AEAD-3858ED83075C",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Inspector Bonus",
+		"Value" : "0.0000",
+		"DailyCost" : "8134.7300",
+		"Code" : "IB",
+		"NamePrint" : "IB",
+		"Active" : 1
+	},
+	{
+		"Id" : "1006DBBC-B3D4-44CE-A59D-3A25DF05B384",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 26",
+		"Value" : "0.0000",
+		"DailyCost" : "44026.2600",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "3130B51E-2C3B-4A7F-A7C0-3B5CC8959F66",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Rig",
+		"Value" : "5000.0000",
+		"DailyCost" : "6380.6700",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "63BDE3ED-0AD7-4097-B91A-3CC4EF578CB4",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "P4",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 0
+	},
+	{
+		"Id" : "757388F9-E04B-418C-9240-3D517F0C330E",
+		"ClientId" : "661941D3-D540-487D-9FC7-BB641847DE01",
+		"Name" : "T3",
+		"Value" : "0.0000",
+		"DailyCost" : "81.9700",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "3279226D-F1FB-45C1-A5AA-3EC08B05B1D0",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Standby 2",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "SB",
+		"NamePrint" : "SB",
+		"Active" : 0
+	},
+	{
+		"Id" : "AF22F239-65F9-4783-B013-3F0A57A7BD28",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Quarantine 2",
+		"Value" : "2000.0000",
+		"DailyCost" : "2490.5600",
+		"Code" : "Q",
+		"NamePrint" : "Quarantine",
+		"Active" : 1
+	},
+	{
+		"Id" : "77D91C6D-1290-43D9-B3C7-4415083D7D27",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 9",
+		"Value" : "0.0000",
+		"DailyCost" : "6191.1900",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 1
+	},
+	{
+		"Id" : "EB1F9F9E-ED0E-4910-997C-45A6B327732A",
+		"ClientId" : "A7868E4D-6D61-40D6-A455-66EF7F7F9596",
+		"Name" : "T",
+		"Value" : "182.5000",
+		"DailyCost" : "182.5000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "D4B13ABC-9FBF-4095-9068-46520FE769DA",
+		"ClientId" : "4594EC1E-44C1-45AC-BA6A-BCB252F63C97",
+		"Name" : "Present",
+		"Value" : "0.0000",
+		"DailyCost" : "4665.2100",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "14543072-9F1E-4CD8-8234-46B7A7ED469D",
+		"ClientId" : "F55EEA82-8994-41D2-8113-138878B43741",
+		"Name" : "T",
+		"Value" : "187.5000",
+		"DailyCost" : "187.5000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "1E0B1E5B-A99A-452D-9E4F-47DA404A8A04",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "P8",
+		"Value" : "350.0000",
+		"DailyCost" : "409.8400",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "3800E608-A115-4E45-9CAF-48AC19DBEA27",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Standby 2",
+		"Value" : "0.0000",
+		"DailyCost" : "1364.1300",
+		"Code" : "SB  ",
+		"NamePrint" : "Standby",
+		"Active" : 0
+	},
+	{
+		"Id" : "A44ABCF3-2FDE-4499-A5CB-49ADF1841981",
+		"ClientId" : "3019537C-8620-4122-8939-8B015B5CEDD8",
+		"Name" : "Present",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "A1408309-2472-47F5-A9D6-4BD8F0868903",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "T2",
+		"Value" : "0.0000",
+		"DailyCost" : "210.7700",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "8F8B234D-CC2C-476A-B851-4C9E815F2918",
+		"ClientId" : "1ACBED20-5FDC-4556-A4A5-435BA13F693F",
+		"Name" : "Operator Bonus",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "OB",
+		"NamePrint" : "OB",
+		"Active" : 1
+	},
+	{
+		"Id" : "9C6B7546-F704-4CAF-BECB-4CAD284DAB82",
+		"ClientId" : "661941D3-D540-487D-9FC7-BB641847DE01",
+		"Name" : "P3",
+		"Value" : "250.0000",
+		"DailyCost" : "81.9700",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "6E2733A5-C1A6-4BDC-AC43-4D2E41A8EABA",
+		"ClientId" : "38F5F5FB-EA88-407A-9552-6143FA60D8F8",
+		"Name" : "P",
+		"Value" : "300.0000",
+		"DailyCost" : "300.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "C5F64D45-3BEA-4B32-849D-4D4E6CFBD571",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 10",
+		"Value" : "0.0000",
+		"DailyCost" : "2889.2200",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "1D99F7E0-E6DD-4B40-BF40-4FF983A5D06B",
+		"ClientId" : "6BE1F031-CD86-45D9-A773-006E1F3C8916",
+		"Name" : "P",
+		"Value" : "220.0000",
+		"DailyCost" : "220.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "0A310ED0-FC6D-4AAC-B62C-50048FA295B5",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "T3",
+		"Value" : "0.0000",
+		"DailyCost" : "298.5900",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "EC063338-D43F-4A6C-B996-516BB626452E",
+		"ClientId" : "3D6C3452-12AC-44DE-9915-5781E1112577",
+		"Name" : "Rig",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "RIG",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "2F3D413A-98C5-4A23-9CAA-5219E3A71DAB",
+		"ClientId" : "CAC58683-EC83-42FB-AA5F-2FFDA1D769E1",
+		"Name" : "T",
+		"Value" : "230.0000",
+		"DailyCost" : "230.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "13334AD3-C52C-4862-906C-52D6D5ADCB58",
+		"ClientId" : "38F5F5FB-EA88-407A-9552-6143FA60D8F8",
+		"Name" : "T",
+		"Value" : "150.0000",
+		"DailyCost" : "150.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "47605767-DA7A-475A-9689-54090822A454",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 16",
+		"Value" : "0.0000",
+		"DailyCost" : "23388.9500",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "1CF353DD-D7B6-4659-8F04-555DC5D16487",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 19",
+		"Value" : "0.0000",
+		"DailyCost" : "19261.4900",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "CBACE02C-D71E-482D-9466-56215DC295D8",
+		"ClientId" : "C83DE2DF-165B-438D-885F-39D1B52646E3",
+		"Name" : "P",
+		"Value" : "365.0000",
+		"DailyCost" : "330.0000",
+		"Code" : "P   ",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "6262EA04-A737-4DAD-9490-5872BBFD2EE4",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 2",
+		"Value" : "0.0000",
+		"DailyCost" : "18410.0100",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 0
+	},
+	{
+		"Id" : "ED5F8205-7C06-4253-B678-59CD711B1944",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 23",
+		"Value" : "0.0000",
+		"DailyCost" : "2751.6400",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "CFEFD663-672B-403D-952D-5B0D53B6759A",
+		"ClientId" : "186E84EC-42DE-406F-B043-FB84D1B21443",
+		"Name" : "T",
+		"Value" : "125.0000",
+		"DailyCost" : "125.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "FFEB6C40-F915-47F0-87E2-5B1CA17D27C8",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Standby",
+		"Value" : "0.0000",
+		"DailyCost" : "1038.9300",
+		"Code" : "SB",
+		"NamePrint" : "Standby",
+		"Active" : 1
+	},
+	{
+		"Id" : "DF1180E0-ECB8-423C-8E79-5E911836977F",
+		"ClientId" : "397D4C69-1B68-4B5E-B16B-ECB418FBF6D5",
+		"Name" : "P",
+		"Value" : "0.0000",
+		"DailyCost" : "400.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "A25A2592-A741-4768-982F-5E9446363666",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Turbines",
+		"Value" : "0.0000",
+		"DailyCost" : "41274.6200",
+		"Code" : "T",
+		"NamePrint" : "Turbines",
+		"Active" : 0
+	},
+	{
+		"Id" : "9BD09833-63C4-49DD-876C-60A3256AE4F9",
+		"ClientId" : "98DD3A39-F29B-48AA-9600-F7061D0E12C9",
+		"Name" : "P",
+		"Value" : "415.0000",
+		"DailyCost" : "415.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "B6E17BFB-262E-4003-8C33-6214D7C23F67",
+		"ClientId" : "28E76C2A-22FA-4B9C-9DA2-53AA715D4220",
+		"Name" : "P4",
+		"Value" : "129.6000",
+		"DailyCost" : "137.3760",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "96CFDF6A-BFB8-453B-A21E-631753AE0A72",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Job 1",
+		"Value" : "0.0000",
+		"DailyCost" : "2063.7300",
+		"Code" : "J",
+		"NamePrint" : "Job",
+		"Active" : 1
+	},
+	{
+		"Id" : "D05772CA-89FC-4714-8244-64CF632800CF",
+		"ClientId" : "28E76C2A-22FA-4B9C-9DA2-53AA715D4220",
+		"Name" : "T3",
+		"Value" : "170.0000",
+		"DailyCost" : "180.2000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "F211DC1C-F190-4E11-BE8D-662F70FA1012",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "T6",
+		"Value" : "0.0000",
+		"DailyCost" : "433.2600",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "6235AFC0-4D75-40FE-9308-66CC34CA4BC3",
+		"ClientId" : "881FE0BE-C8F2-42B5-BDCD-DA16E718D7EA",
+		"Name" : "Present ",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "DC20F6B4-D2F3-467C-A057-675735054813",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Operator Bonus",
+		"Value" : "3000.0000",
+		"DailyCost" : "4067.3600",
+		"Code" : "OB",
+		"NamePrint" : "OB",
+		"Active" : 1
+	},
+	{
+		"Id" : "D3E2717C-E9BA-4B45-8305-67DC85F2DF2B",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Quarantine",
+		"Value" : "0.0000",
+		"DailyCost" : "13700.0000",
+		"Code" : "Q",
+		"NamePrint" : "Quarantine",
+		"Active" : 0
+	},
+	{
+		"Id" : "676303A4-9E9C-498B-A1EE-694EFEB27686",
+		"ClientId" : "2DFF0968-76F3-4247-B0BF-AE5D18895690",
+		"Name" : "T",
+		"Value" : "200.0000",
+		"DailyCost" : "200.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "2CA0C6BA-52D5-4D6E-A5E6-69E658A67F0D",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 7",
+		"Value" : "0.0000",
+		"DailyCost" : "15509.8500",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "76BB5CA9-9022-4C14-8B77-6A316EB13AA2",
+		"ClientId" : "0AC63127-DD10-4AF1-9DF9-497758A41107",
+		"Name" : "P",
+		"Value" : "300.0000",
+		"DailyCost" : "300.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "591E2EC2-FDA4-485D-BCE2-6A588538075A",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Rig 8",
+		"Value" : "0.0000",
+		"DailyCost" : "8503.7100",
+		"Code" : "R",
+		"NamePrint" : "R",
+		"Active" : 0
+	},
+	{
+		"Id" : "777F66B3-B978-437C-BD70-6ABBFF846E79",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "P7",
+		"Value" : "255.0000",
+		"DailyCost" : "298.5900",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "31B8082D-68E9-4FB9-897C-6B43D97040BE",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 14",
+		"Value" : "0.0000",
+		"DailyCost" : "27516.1800",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "722272DC-2884-483E-B625-6DDA173C37FD",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 5",
+		"Value" : "0.0000",
+		"DailyCost" : "47177.1700",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "4A48F4E9-6939-490C-B29B-6EA28E5BC588",
+		"ClientId" : "1745E9E7-6CC1-45B4-80AC-39CEF6C82963",
+		"Name" : "P",
+		"Value" : "405.0000",
+		"DailyCost" : "405.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "34EB93BE-6D54-48A9-A23C-6FB3FF488B30",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Rig 4",
+		"Value" : "0.0000",
+		"DailyCost" : "1913.3300",
+		"Code" : "R",
+		"NamePrint" : "R",
+		"Active" : 0
+	},
+	{
+		"Id" : "095F5899-EDFE-49F3-9CC3-71D0E4F3D9B4",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 29",
+		"Value" : "0.0000",
+		"DailyCost" : "16509.8500",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "89F38386-6FB2-4366-9D7B-744ADD8E5FCE",
+		"ClientId" : "1745E9E7-6CC1-45B4-80AC-39CEF6C82963",
+		"Name" : "T",
+		"Value" : "202.5000",
+		"DailyCost" : "202.5000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "3C537CAE-C0A1-4325-97BF-768392B6159A",
+		"ClientId" : "1DA00807-8BA8-43A0-AD78-2E240B8D4EFC",
+		"Name" : "P",
+		"Value" : "250.0000",
+		"DailyCost" : "250.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "EFE404DF-6276-4E94-BDAB-7727B912BA3F",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "T8",
+		"Value" : "0.0000",
+		"DailyCost" : "409.8400",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "C3CC5692-4A87-4A13-9ED5-7772F5B40A11",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Job 2",
+		"Value" : "0.0000",
+		"DailyCost" : "13758.2100",
+		"Code" : "J",
+		"NamePrint" : "Job",
+		"Active" : 1
+	},
+	{
+		"Id" : "F48B3DF1-6FC3-4504-9F2D-780BAEE06C0F",
+		"ClientId" : "5F2E288D-ABEC-4DD8-A178-8DD1749B42F1",
+		"Name" : "P",
+		"Value" : "0.0000",
+		"DailyCost" : "53.4000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "C662525D-63F7-4E0A-A0F5-79CA00B2ACFC",
+		"ClientId" : "1ACBED20-5FDC-4556-A4A5-435BA13F693F",
+		"Name" : "Rig Bonus",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "R",
+		"NamePrint" : "R",
+		"Active" : 1
+	},
+	{
+		"Id" : "81EC0071-A5D4-4E3C-8731-7B051E6A026E",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 10",
+		"Value" : "0.0000",
+		"DailyCost" : "2063.7300",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 1
+	},
+	{
+		"Id" : "DD61A700-E26D-4487-AAF2-7C6D05BF35DA",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 1",
+		"Value" : "0.0000",
+		"DailyCost" : "12415.0500",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 0
+	},
+	{
+		"Id" : "0544C7A3-5C47-4779-80BB-7D97818FB556",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Rig 2",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "34E2CB72-A6EA-487A-A5BC-7E145A0F960A",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Job 3",
+		"Value" : "0.0000",
+		"DailyCost" : "16509.8500",
+		"Code" : "J",
+		"NamePrint" : "Job",
+		"Active" : 1
+	},
+	{
+		"Id" : "416BF61B-3BD2-4BFD-9A1A-7E27882ABD23",
+		"ClientId" : "79E2383E-82D8-4F08-AC01-020D77C1C8DB",
+		"Name" : "T",
+		"Value" : "150.0000",
+		"DailyCost" : "150.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "C33116A5-E0D2-42ED-9957-7E6D3E43549D",
+		"ClientId" : "891E6C84-1780-483A-AFAE-8A766A2CDEB0",
+		"Name" : "T",
+		"Value" : "182.5000",
+		"DailyCost" : "182.5000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "56C366AC-188D-4509-B728-8082886ADFA9",
+		"ClientId" : "D97CDF7E-7D19-4821-94D6-0A7548864FD0",
+		"Name" : "P",
+		"Value" : "415.0000",
+		"DailyCost" : "415.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "2C281E42-8FE2-4649-8D68-80DE4C845B94",
+		"ClientId" : "28E76C2A-22FA-4B9C-9DA2-53AA715D4220",
+		"Name" : "P2",
+		"Value" : "120.0000",
+		"DailyCost" : "127.2000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "7978CDEA-1CC3-4A6C-9E8A-81B5CB36705C",
+		"ClientId" : "A45B8042-B624-4B29-87BC-17BE40309291",
+		"Name" : "T",
+		"Value" : "150.0000",
+		"DailyCost" : "150.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "B39B4E27-EBCB-4A92-960C-85884FEABAEA",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 12",
+		"Value" : "0.0000",
+		"DailyCost" : "35771.3300",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "4446A215-BFFA-406B-8F24-87B8F195FFCB",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Present 6",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 0
+	},
+	{
+		"Id" : "50B0DA40-9AB1-4E6F-A7D8-88885B7D70EF",
+		"ClientId" : "397D4C69-1B68-4B5E-B16B-ECB418FBF6D5",
+		"Name" : "T",
+		"Value" : "0.0000",
+		"DailyCost" : "200.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "B3C91A24-4A73-49A1-99FF-89E0B5EA7850",
+		"ClientId" : "CAC58683-EC83-42FB-AA5F-2FFDA1D769E1",
+		"Name" : "P",
+		"Value" : "460.0000",
+		"DailyCost" : "460.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "559E424B-F985-4ADC-9B0A-8CD4F5039F0F",
+		"ClientId" : "D97CDF7E-7D19-4821-94D6-0A7548864FD0",
+		"Name" : "T",
+		"Value" : "207.5000",
+		"DailyCost" : "207.5000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "5D59AD76-2CAF-4169-A6F5-8CFB06B7713B",
+		"ClientId" : "5F2E288D-ABEC-4DD8-A178-8DD1749B42F1",
+		"Name" : "T",
+		"Value" : "0.0000",
+		"DailyCost" : "27.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "D11503E2-EFA5-478F-A3CB-8FB96C6EDF8A",
+		"ClientId" : "28E76C2A-22FA-4B9C-9DA2-53AA715D4220",
+		"Name" : "P1",
+		"Value" : "100.0000",
+		"DailyCost" : "106.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "FE2E5B79-18A8-4817-BBF3-92C0EE36B6DE",
+		"ClientId" : "8659BAB6-9013-4729-B514-E73BD6E19E89",
+		"Name" : "T",
+		"Value" : "165.0000",
+		"DailyCost" : "165.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "75B5A469-20D0-4A94-A835-9348ACE96610",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "P5",
+		"Value" : "315.0000",
+		"DailyCost" : "368.8500",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "735A6FAA-1E01-4B99-952A-934E99551027",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 8",
+		"Value" : "0.0000",
+		"DailyCost" : "5503.2800",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "46AD9A76-3D0F-4AC7-AABB-94EE255AFC14",
+		"ClientId" : "28E76C2A-22FA-4B9C-9DA2-53AA715D4220",
+		"Name" : "P3",
+		"Value" : "170.0000",
+		"DailyCost" : "180.2000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "2DFF860A-86CF-460D-BDA6-983D89681211",
+		"ClientId" : "2DFF0968-76F3-4247-B0BF-AE5D18895690",
+		"Name" : "P",
+		"Value" : "400.0000",
+		"DailyCost" : "400.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "50CBE4B2-5C03-47B3-833A-985B953F7D61",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "P3",
+		"Value" : "255.0000",
+		"DailyCost" : "298.5900",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "474CD3B7-5AF5-4BCA-8845-9B43FAD4DEA5",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 22",
+		"Value" : "0.0000",
+		"DailyCost" : "10318.6500",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "37D7ACDF-51A1-4D48-AD70-9B7C62862ABD",
+		"ClientId" : "881FE0BE-C8F2-42B5-BDCD-DA16E718D7EA",
+		"Name" : "Travel",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "T",
+		"NamePrint" : "Travel",
+		"Active" : 1
+	},
+	{
+		"Id" : "596DEE1C-00C2-4A80-B1B2-9D9AC287BB6A",
+		"ClientId" : "DF0188CF-9919-4FEF-8ADE-E041C5D239CE",
+		"Name" : "Present",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "45B693D2-8E8B-42D5-91AF-9DB080691B26",
+		"ClientId" : "661941D3-D540-487D-9FC7-BB641847DE01",
+		"Name" : "P2",
+		"Value" : "275.0000",
+		"DailyCost" : "322.0100",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "C5B545AF-210C-45B4-A4E6-9DE5CFA65B82",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "P2",
+		"Value" : "180.0000",
+		"DailyCost" : "210.7700",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "3A533486-053C-4470-9AAC-9EC1C59DBD0E",
+		"ClientId" : "98DD3A39-F29B-48AA-9600-F7061D0E12C9",
+		"Name" : "T",
+		"Value" : "207.5000",
+		"DailyCost" : "207.5000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "455534CE-25B6-4551-9B14-A0368CE12C3E",
+		"ClientId" : "ECD3DDC0-9D46-42BA-ABF1-7E81D5B3680B",
+		"Name" : "P",
+		"Value" : "365.0000",
+		"DailyCost" : "365.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "D02A6052-7FD7-43FE-9F74-A2CACED7E289",
+		"ClientId" : "1DA00807-8BA8-43A0-AD78-2E240B8D4EFC",
+		"Name" : "T",
+		"Value" : "125.0000",
+		"DailyCost" : "125.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "8122C854-D92A-45F5-8D0C-A465F7BF5958",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig",
+		"Value" : "51200.0000",
+		"DailyCost" : "68497.9500",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "9F0C405C-AECE-4F2B-9E1C-A496FC9B9A85",
+		"ClientId" : "6BE1F031-CD86-45D9-A773-006E1F3C8916",
+		"Name" : "T",
+		"Value" : "110.0000",
+		"DailyCost" : "110.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "AE92F7D5-B623-4EAE-B604-A5EF2F96F25E",
+		"ClientId" : "0AC63127-DD10-4AF1-9DF9-497758A41107",
+		"Name" : "T",
+		"Value" : "150.0000",
+		"DailyCost" : "150.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "3C577078-E779-4159-B177-A71A5F4AC999",
+		"ClientId" : "891E6C84-1780-483A-AFAE-8A766A2CDEB0",
+		"Name" : "P",
+		"Value" : "365.0000",
+		"DailyCost" : "365.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "BCE04ED5-9730-4989-9520-AAA57DFB6F83",
+		"ClientId" : "D2841686-BC3E-4DB3-B6EE-A5692660BAEA",
+		"Name" : "T",
+		"Value" : "207.5000",
+		"DailyCost" : "237.5000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "08E4BA8E-2073-4110-BCE4-AAB176B88047",
+		"ClientId" : "1ACBED20-5FDC-4556-A4A5-435BA13F693F",
+		"Name" : "Rig",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "C567A427-C4D5-48B2-9734-AB0D1B834A7E",
+		"ClientId" : "A45B8042-B624-4B29-87BC-17BE40309291",
+		"Name" : "P",
+		"Value" : "300.0000",
+		"DailyCost" : "300.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "766D813D-2A80-4425-B3AB-AB7FC8EBE24F",
+		"ClientId" : "186E84EC-42DE-406F-B043-FB84D1B21443",
+		"Name" : "P",
+		"Value" : "250.0000",
+		"DailyCost" : "250.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "8163B78A-FA41-4579-B366-AB8E024DFF35",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Field Bonus",
+		"Value" : "0.0000",
+		"DailyCost" : "13070.3000",
+		"Code" : "F ",
+		"NamePrint" : "Field Bonus",
+		"Active" : 0
+	},
+	{
+		"Id" : "5DD3FEBB-3AB2-4C4F-BDC0-AD29E634CBA8",
+		"ClientId" : "28E76C2A-22FA-4B9C-9DA2-53AA715D4220",
+		"Name" : "T4",
+		"Value" : "129.6000",
+		"DailyCost" : "137.3800",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "7BF2C725-0E2B-417B-8063-AE7A2FCCD92E",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Standby",
+		"Value" : "0.0000",
+		"DailyCost" : "6100.6600",
+		"Code" : "SB",
+		"NamePrint" : "SB",
+		"Active" : 1
+	},
+	{
+		"Id" : "5AA30FDD-2477-4F62-BD64-AE92F2CC2AF3",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 5",
+		"Value" : "0.0000",
+		"DailyCost" : "2751.6400",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "F33A49FF-C1C3-4942-A1CE-AEE45BD65BC3",
+		"ClientId" : "CEEE1D58-937D-474C-B660-F26A4EF80D36",
+		"Name" : "P",
+		"Value" : "415.0000",
+		"DailyCost" : "415.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "E3BC08E9-C055-4DC4-B8D2-B0770491DD6A",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 6",
+		"Value" : "0.0000",
+		"DailyCost" : "18622.5700",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "AB06A0C9-ED73-4256-90F3-B15253B01E00",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 4",
+		"Value" : "0.0000",
+		"DailyCost" : "6000.0000",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 0
+	},
+	{
+		"Id" : "694BB4C5-AAD1-42E1-9882-B1DDD93CEE76",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 28",
+		"Value" : "0.0000",
+		"DailyCost" : "11006.5600",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "6831D8F3-2DEC-4FBA-87DF-B3A02A1EC95D",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Quarantine 3",
+		"Value" : "0.0000",
+		"DailyCost" : "9630.7400",
+		"Code" : "Q",
+		"NamePrint" : "Quarantine",
+		"Active" : 0
+	},
+	{
+		"Id" : "71DC3419-F362-4DDA-84C8-B4869713CBFD",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 10",
+		"Value" : "0.0000",
+		"DailyCost" : "5159.3300",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "C2C16D4C-95A8-455E-B4C8-B56061F3FE26",
+		"ClientId" : "68ABDFF9-B679-4F85-B8ED-5B478FA189EF",
+		"Name" : "P",
+		"Value" : "300.0000",
+		"DailyCost" : "300.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "0AEC4FE2-BCC7-4195-8B6F-B570B65EDFF7",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 21",
+		"Value" : "0.0000",
+		"DailyCost" : "12382.3900",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "54D612C9-FD0F-49CA-8B1E-BA9EBC14DBF6",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 2",
+		"Value" : "0.0000",
+		"DailyCost" : "10552.7900",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 0
+	},
+	{
+		"Id" : "C81B32CC-C6B9-4316-8970-BDDC48C20CD9",
+		"ClientId" : "D0F4F93C-0EE6-4353-9434-AA3442887752",
+		"Name" : "ADAS",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "Z",
+		"NamePrint" : "AS",
+		"Active" : 1
+	},
+	{
+		"Id" : "986ACEAA-09BA-4801-B818-BDE07ADBA7BE",
+		"ClientId" : "1ACBED20-5FDC-4556-A4A5-435BA13F693F",
+		"Name" : "Inspector Bonus",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "IB",
+		"NamePrint" : "IB",
+		"Active" : 1
+	},
+	{
+		"Id" : "70F559E0-0387-49E3-A950-BE21739CA398",
+		"ClientId" : "F55EEA82-8994-41D2-8113-138878B43741",
+		"Name" : "P",
+		"Value" : "375.0000",
+		"DailyCost" : "375.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "9B91249A-0842-4145-B13C-C0000D6A2178",
+		"ClientId" : "C83DE2DF-165B-438D-885F-39D1B52646E3",
+		"Name" : "T",
+		"Value" : "182.5000",
+		"DailyCost" : "165.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "7ACE191A-AA74-4321-80F3-C017D65FAA9B",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 24",
+		"Value" : "0.0000",
+		"DailyCost" : "1650.9800",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "7AC0A88C-A46C-4B7D-A02E-C1075AD1ADB2",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 18",
+		"Value" : "0.0000",
+		"DailyCost" : "20637.3000",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "24486517-4995-4576-817B-C2E5546FDD40",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 25",
+		"Value" : "0.0000",
+		"DailyCost" : "1038.9300",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "A3E19013-C6BB-4CB2-9E39-C3AB2BC23BEC",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 3",
+		"Value" : "0.0000",
+		"DailyCost" : "4892.4600",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 0
+	},
+	{
+		"Id" : "72251370-6F88-4A07-90C8-C402CE6CC952",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Rig 7",
+		"Value" : "0.0000",
+		"DailyCost" : "2866.0000",
+		"Code" : "R",
+		"NamePrint" : "R",
+		"Active" : 0
+	},
+	{
+		"Id" : "5B8F825C-2F50-47E1-92C8-C46F9841D8D0",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Salary 2",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "S",
+		"NamePrint" : "Salary",
+		"Active" : 0
+	},
+	{
+		"Id" : "044A3400-1C2F-4111-9D21-C532F11EB497",
+		"ClientId" : "8659BAB6-9013-4729-B514-E73BD6E19E89",
+		"Name" : "P",
+		"Value" : "330.0000",
+		"DailyCost" : "330.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "408BFFAB-E9A8-4E87-A1F9-C6F15C714BB8",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 3",
+		"Value" : "0.0000",
+		"DailyCost" : "9000.0000",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 0
+	},
+	{
+		"Id" : "69D2F96C-121E-4AFD-B274-C9ABC43BECBC",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 7",
+		"Value" : "0.0000",
+		"DailyCost" : "13070.3000",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "1EE25E8A-AF51-4372-9BD3-CA92D678167A",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "P6",
+		"Value" : "370.0000",
+		"DailyCost" : "433.2600",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "619E9F8E-3DAD-4A86-A406-CEFB6AFF56DA",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Present",
+		"Value" : "0.0000",
+		"DailyCost" : "5138.1200",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "1A3306D8-A10D-43BB-BDDB-D0C38F05BD9F",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 11",
+		"Value" : "0.0000",
+		"DailyCost" : "41274.6200",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "77C5018F-0EE9-4926-B7E8-D5B10E922441",
+		"ClientId" : "E7DBAB13-BD65-43F2-A009-CE7F41C223AF",
+		"Name" : "T",
+		"Value" : "218.0000",
+		"DailyCost" : "218.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "B2C9C98A-4310-4A34-B888-D65A79E2F031",
+		"ClientId" : "661941D3-D540-487D-9FC7-BB641847DE01",
+		"Name" : "P1",
+		"Value" : "410.0000",
+		"DailyCost" : "480.0900",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "8D46039E-B69F-421B-8188-D7646283AD5E",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Present 1",
+		"Value" : "0.0000",
+		"DailyCost" : "23896.6600",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 0
+	},
+	{
+		"Id" : "4BD5256A-BBD0-4D4F-AF11-D798A85FF756",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Rig 4",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "FDE0BAD2-C6FC-4827-B8BB-D97C4E8539E0",
+		"ClientId" : "661941D3-D540-487D-9FC7-BB641847DE01",
+		"Name" : "P4",
+		"Value" : "250.0000",
+		"DailyCost" : "292.7400",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "541D7D41-27F3-4E40-A3B6-D992DA18F0DB",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Rig 6",
+		"Value" : "0.0000",
+		"DailyCost" : "6919.7100",
+		"Code" : "R",
+		"NamePrint" : "R",
+		"Active" : 0
+	},
+	{
+		"Id" : "B03BB6F1-E936-477B-9BE4-D9F0FAF504EE",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 9",
+		"Value" : "0.0000",
+		"DailyCost" : "52281.1800",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "E8B9569D-49D1-4997-A671-DA06736C5EC3",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Rig 1",
+		"Value" : "0.0000",
+		"DailyCost" : "7653.3300",
+		"Code" : "R",
+		"NamePrint" : "R",
+		"Active" : 1
+	},
+	{
+		"Id" : "E88FDAE5-B06F-4296-9C5E-DDFC9524C9AD",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Present 8",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 0
+	},
+	{
+		"Id" : "105A36BA-3710-4D16-8EDB-DE08439AF2CF",
+		"ClientId" : "F761858A-9C9C-4635-BA75-80999B7D2549",
+		"Name" : "Rig 2",
+		"Value" : "0.0000",
+		"DailyCost" : "6377.7800",
+		"Code" : "R",
+		"NamePrint" : "R",
+		"Active" : 0
+	},
+	{
+		"Id" : "95EBE6F6-25D8-4D5E-9537-DFD35E3F8A6C",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 8",
+		"Value" : "0.0000",
+		"DailyCost" : "13758.2100",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "6FD0B35E-D6DA-4E67-97FA-E0331A68054A",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "T4",
+		"Value" : "0.0000",
+		"DailyCost" : "316.1600",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "6F556356-DCEC-487A-B23C-E1ED7B424774",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 11",
+		"Value" : "0.0000",
+		"DailyCost" : "28892.2300",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "EF775303-EF25-497C-8E3F-E29D9ABBDA40",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present 9",
+		"Value" : "0.0000",
+		"DailyCost" : "1650.9800",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 0
+	},
+	{
+		"Id" : "B2765F19-5C33-4C6B-BADA-E3E570A75A75",
+		"ClientId" : "A98A6F5A-DAD9-49F0-A41C-A90AA99BA6B6",
+		"Name" : "Present",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "D63E2A21-2886-4AAC-8B01-E4481AFD184C",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "P1",
+		"Value" : "125.0000",
+		"DailyCost" : "146.3700",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "32F3A0DF-BD09-4487-89A9-E60B48624811",
+		"ClientId" : "0809E123-D97F-4A00-929D-05581791FF0E",
+		"Name" : "P4",
+		"Value" : "270.0000",
+		"DailyCost" : "316.1600",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "84603727-0078-4AC4-8584-E7A159F0B15D",
+		"ClientId" : "79E2383E-82D8-4F08-AC01-020D77C1C8DB",
+		"Name" : "p",
+		"Value" : "300.0000",
+		"DailyCost" : "300.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "3439F1DE-1EE0-4394-93E4-E7EDAC5F8FAA",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 4",
+		"Value" : "0.0000",
+		"DailyCost" : "27313.1000",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "4ECEB9B4-5E0F-446F-BCB1-E7F446A0D17C",
+		"ClientId" : "ECD3DDC0-9D46-42BA-ABF1-7E81D5B3680B",
+		"Name" : "T",
+		"Value" : "182.5000",
+		"DailyCost" : "182.5000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "E2F3DAB2-01DD-4C39-B3CF-E858C833B5A7",
+		"ClientId" : "CEEE1D58-937D-474C-B660-F26A4EF80D36",
+		"Name" : "T",
+		"Value" : "207.5000",
+		"DailyCost" : "207.5000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "433820F1-B99A-4F30-BC58-E9704EAF980F",
+		"ClientId" : "E7DBAB13-BD65-43F2-A009-CE7F41C223AF",
+		"Name" : "P",
+		"Value" : "436.0000",
+		"DailyCost" : "436.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "AA93092D-03DE-44EC-90A5-E9F4A5FF25AC",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 8",
+		"Value" : "0.0000",
+		"DailyCost" : "13758.2100",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 1
+	},
+	{
+		"Id" : "717359BC-8C70-4360-8287-E9F6115B331E",
+		"ClientId" : "5C04929A-7728-4BC8-B206-CB73DDFA86F8",
+		"Name" : "T",
+		"Value" : "0.0000",
+		"DailyCost" : "200.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "9F4C8670-DC06-4619-8DED-EB60FB303E77",
+		"ClientId" : "661941D3-D540-487D-9FC7-BB641847DE01",
+		"Name" : "T1",
+		"Value" : "0.0000",
+		"DailyCost" : "480.0900",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "DEE928AE-4E22-4118-A3F9-EBD9F0AF1E22",
+		"ClientId" : "68ABDFF9-B679-4F85-B8ED-5B478FA189EF",
+		"Name" : "T",
+		"Value" : "150.0000",
+		"DailyCost" : "150.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "6C465313-178A-47ED-B8EE-ED1398266974",
+		"ClientId" : "F55EEA82-8994-41D2-8113-138878B43741",
+		"Name" : "Present",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	},
+	{
+		"Id" : "72778B7A-D5BF-4FD1-850A-ED7C6790FB86",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Present",
+		"Value" : "0.0000",
+		"DailyCost" : "25965.4300",
+		"Code" : "P",
+		"NamePrint" : "Present",
+		"Active" : 1
+	},
+	{
+		"Id" : "251C332C-1B79-4E1F-B7A2-EDF284097E21",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 5",
+		"Value" : "0.0000",
+		"DailyCost" : "4127.4600",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 1
+	},
+	{
+		"Id" : "865AEFD2-9956-4482-8EAB-EE60BC02F2DE",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 3",
+		"Value" : "0.0000",
+		"DailyCost" : "35000.0000",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "D3D28FC2-6FDD-4E82-AA1B-EF6D3D39340B",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Rig 5",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "409FA319-0F35-4348-B842-EF7E3F3DB705",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Job",
+		"Value" : "90000.0000",
+		"DailyCost" : "113670.5700",
+		"Code" : "J",
+		"NamePrint" : "Job",
+		"Active" : 1
+	},
+	{
+		"Id" : "44420F8A-F0D1-4DEE-AD4F-F09C58199581",
+		"ClientId" : "661941D3-D540-487D-9FC7-BB641847DE01",
+		"Name" : "T2",
+		"Value" : "0.0000",
+		"DailyCost" : "322.0100",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "E9F8105E-640F-4660-A96C-F24331C259F3",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Base 11",
+		"Value" : "0.0000",
+		"DailyCost" : "6879.1000",
+		"Code" : "B",
+		"NamePrint" : "Base",
+		"Active" : 1
+	},
+	{
+		"Id" : "D46F164D-CB7F-4D57-974D-F422EABB7ADB",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Rig 3",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "A70B7AD7-DA0E-4C7D-8DE5-F569F1AEDB51",
+		"ClientId" : "3FEFB78F-6CC8-4B18-9C5B-870D98ED91E1",
+		"Name" : "T",
+		"Value" : "392.0000",
+		"DailyCost" : "392.0000",
+		"Code" : "T",
+		"NamePrint" : "T",
+		"Active" : 1
+	},
+	{
+		"Id" : "A0BF4356-4C6D-4EC8-BC6D-F7A353E002F3",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "Present 7",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 0
+	},
+	{
+		"Id" : "D5C1649A-3EB5-463F-91FF-F999A70B7F93",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 15",
+		"Value" : "0.0000",
+		"DailyCost" : "26140.5900",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 1
+	},
+	{
+		"Id" : "C987B897-AFFF-4178-AC1D-FC0C56EF1A1C",
+		"ClientId" : "AE370BD5-CAA7-4291-B7D0-B07CE96F97B6",
+		"Name" : "P3",
+		"Value" : "0.0000",
+		"DailyCost" : "0.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 0
+	},
+	{
+		"Id" : "B348FCF4-FD88-471F-8E61-FEFB713E0C30",
+		"ClientId" : "C3CD779B-276A-4F2A-86A4-54579B96A370",
+		"Name" : "Rig 20",
+		"Value" : "0.0000",
+		"DailyCost" : "16509.8500",
+		"Code" : "R",
+		"NamePrint" : "Rig",
+		"Active" : 0
+	},
+	{
+		"Id" : "138DC612-7941-47CC-A6F9-FF3EF85A6712",
+		"ClientId" : "4B3E84B9-8E28-4340-967A-ED2212C8FACB",
+		"Name" : "P",
+		"Value" : "150.0000",
+		"DailyCost" : "300.0000",
+		"Code" : "P",
+		"NamePrint" : "P",
+		"Active" : 1
+	}
+]}

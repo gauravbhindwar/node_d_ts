@@ -1,0 +1,54 @@
+{
+	"compileOnSave": false,
+	"ts-node": {
+	  "require": ["tsconfig-paths/register"],
+	  "transpileOnly": true
+	},
+	"compilerOptions": {
+	  "target": "es2017",
+	  "lib": ["DOM", "es2017", "es2021", "esnext.asynciterable"],
+	  "typeRoots": ["node_modules/@types"],
+	  "allowSyntheticDefaultImports": true,
+	  "experimentalDecorators": true,
+	  "emitDecoratorMetadata": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "moduleResolution": "node",
+	  "module": "commonjs",
+	  "pretty": true,
+	  "sourceMap": true,
+	  "declaration": true,
+	  "outDir": "dist",
+	  "allowJs": true,
+	  "noEmit": false,
+	  "esModuleInterop": true,
+	  "resolveJsonModule": true,
+	  "importHelpers": true,
+	  "baseUrl": "src",
+	  "paths": {
+		"@/*": ["*"],
+		"@config": ["config"],
+		"@controllers/*": ["controllers/*"],
+		"@exceptions/*": ["exceptions/*"],
+		"@helpers/*": ["helpers/*"],
+		"@interfaces/*": ["interfaces/*"],
+		"@middleware/*": ["middleware/*"],
+		"@routes/*": ["routes/*"],
+		"@seeders/*": ["seeders/*"],
+		"@services/*": ["services/*"],
+		"@utils/*": ["utils/*"],
+		"@validationSchema/*": ["validationSchema/*"]
+	  }
+	},
+	"include": [
+	  "sequelize/**/*",
+	  "src/**/*.ts",
+	  "src/**/*.json",
+	  ".env",
+	  "src/interfaces/model/.interface copy.ts",
+	  "src/controllers/.controller copy.ts",
+      "sequelize/**/*",
+      "src/ts-node-register.d.ts"
+	],
+	"exclude": ["node_modules", "src/http", "src/logs", "src/tests"]
+  }
+  

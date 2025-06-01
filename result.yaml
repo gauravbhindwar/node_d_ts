@@ -1,0 +1,2245 @@
+openapi: 3.0.0
+info:
+  title: BOU
+  version: 1.0.0
+servers:
+  - url: http://localhost:8001
+components:
+  securitySchemes:
+    apikeyAuth:
+      type: http
+      scheme: apikey
+    noauthAuth:
+      type: http
+      scheme: noauth
+security:
+  - apikeyAuth: []
+tags:
+  - name: Notification
+  - name: CMS
+  - name: SMTP
+  - name: Auth apis
+  - name: User
+  - name: News and announcements
+  - name: News and announcements Category
+paths:
+  /notification:
+    get:
+      tags:
+        - Notification
+      summary: Get All unread notification
+      security:
+        - apikeyAuth: []
+      parameters:
+        - name: read
+          in: query
+          schema:
+            type: boolean
+          example: 'true'
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '289'
+            ETag:
+              schema:
+                type: string
+                example: W/"121-q50fOIIbJGJOfozS4VrdhCE85AY"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Tue, 11 Apr 2023 11:45:30 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              examples:
+                example-0:
+                  summary: Get All unread notification
+                  value:
+                    responseData:
+                      - id: 117
+                        isRead: false
+                        userId: 20
+                        title: App Notification
+                        message: TravelCheckList updated successfully.
+                        createdAt: '2023-04-10T13:59:52.501Z'
+                        updatedAt: '2023-04-10T13:59:52.501Z'
+                    message: Notification Fetched Successfully
+                    toast: false
+                    response_type: success
+                example-1:
+                  summary: Get All unread notification lts
+                  value:
+                    responseData:
+                      data:
+                        - id: 195
+                          userId: 15
+                          title: App Notification
+                          message: General Task created successfully.
+                          isRead: false
+                          createdAt: '2023-05-01T09:19:41.012Z'
+                          updatedAt: '2023-05-01T09:19:41.012Z'
+                          deletedAt: null
+                        - id: 194
+                          userId: 15
+                          title: App Notification
+                          message: General Task created successfully.
+                          isRead: false
+                          createdAt: '2023-05-01T09:18:59.259Z'
+                          updatedAt: '2023-05-01T09:18:59.259Z'
+                          deletedAt: null
+                      count: 2
+                      currentPage: 1
+                      limit: 3
+                      lastPage: 1
+                    message: Notification Fetched Successfully
+                    toast: false
+                    response_type: success
+  /notification/117:
+    get:
+      tags:
+        - Notification
+      summary: Get Notification By Id
+      security:
+        - apikeyAuth: []
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '287'
+            ETag:
+              schema:
+                type: string
+                example: W/"11f-v4Trkpk8tmh1TYsRQSwxKRbQ1Dw"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Tue, 11 Apr 2023 11:46:51 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData:
+                  id: 117
+                  isRead: false
+                  userId: 20
+                  title: App Notification
+                  message: TravelCheckList updated successfully.
+                  createdAt: '2023-04-10T13:59:52.501Z'
+                  updatedAt: '2023-04-10T13:59:52.501Z'
+                message: Notification Fetched Successfully
+                toast: false
+                response_type: success
+    delete:
+      tags:
+        - Notification
+      summary: Delete Notification
+      security:
+        - apikeyAuth: []
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '95'
+            ETag:
+              schema:
+                type: string
+                example: W/"5f-LhPmTemoudS+hQa2kGUFbQTr0iI"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Tue, 11 Apr 2023 11:59:32 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                data: {}
+                message: Notification Delete Successfully
+                toast: true
+                response_type: success
+  /notification/{id}:
+    put:
+      tags:
+        - Notification
+      summary: Update Notifications
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                isRead: true
+      security:
+        - apikeyAuth: []
+      parameters:
+        - name: id
+          in: path
+          schema:
+            type: string
+          required: true
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '96'
+            ETag:
+              schema:
+                type: string
+                example: W/"60-gG7xE6vloQ5eODH4xxYFuV+K9qU"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Tue, 11 Apr 2023 11:49:24 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData: []
+                message: Notification Updated Successfully
+                toast: true
+                response_type: success
+  /notification/all:
+    put:
+      tags:
+        - Notification
+      summary: Update All notifications of user
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                isRead: true
+      security:
+        - apikeyAuth: []
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '96'
+            ETag:
+              schema:
+                type: string
+                example: W/"60-gG7xE6vloQ5eODH4xxYFuV+K9qU"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Tue, 11 Apr 2023 11:52:31 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData: []
+                message: Notification Updated Successfully
+                toast: true
+                response_type: success
+  /cms:
+    get:
+      tags:
+        - CMS
+      summary: Get CMS
+      security:
+        - apikeyAuth: []
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /smtp/{id}:
+    put:
+      tags:
+        - SMTP
+      summary: Update SMTP
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                host: smtp.gmail.com
+                port: 465
+                secure: true
+                username: jeel.shah.2210@gmail.com
+                password: ebbkrpkymbrvbajm
+                isDefault: true
+      security:
+        - apikeyAuth: []
+      parameters:
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '1'
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '357'
+            ETag:
+              schema:
+                type: string
+                example: W/"165-kamWES9UMrUPtX7UdOmQR+WGBPg"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Mon, 03 Apr 2023 13:20:54 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData:
+                  id: 1
+                  userId: null
+                  isDefault: true
+                  host: smtp.gmail.com
+                  port: 465
+                  secure: true
+                  username: jeel.shah.2210@gmail.com
+                  password: ebbkrpkymbrvbajm
+                  otherDetails: null
+                  createdAt: '2023-04-03T12:04:53.579Z'
+                  updatedAt: '2023-04-03T13:20:54.846Z'
+                  deletedAt: null
+                message: Smtp Updated Successfully
+                toast: true
+                response_type: success
+  /smtp:
+    get:
+      tags:
+        - SMTP
+      summary: Get SMTP By Id
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '418'
+            ETag:
+              schema:
+                type: string
+                example: W/"1a2-xJ02g51ZTgGLgxleAbpyLplI/UQ"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Mon, 03 Apr 2023 13:21:40 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData:
+                  data:
+                    - id: 1
+                      userId: null
+                      isDefault: true
+                      host: smtp.gmail.com
+                      port: 465
+                      secure: true
+                      username: jeel.shah.2210@gmail.com
+                      password: ebbkrpkymbrvbajm
+                      otherDetails: null
+                      createdAt: '2023-04-03T12:04:53.579Z'
+                      updatedAt: '2023-04-03T13:20:54.846Z'
+                      deletedAt: null
+                  count: 1
+                  currentPage: 1
+                  limit: 10
+                  lastPage: 1
+                message: Smtp Fetched Successfully
+                toast: true
+                response_type: success
+  /auth/send-otp:
+    post:
+      tags:
+        - Auth apis
+      summary: Send Otp
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                email: adminUser@mailinator.com
+                type: REGISTER
+      security:
+        - noauthAuth: []
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '92'
+            ETag:
+              schema:
+                type: string
+                example: W/"5c-k+vF3DBFqI8jMuh4JMlhr5MYx+M"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Tue, 16 May 2023 08:22:00 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData: []
+                message: Otp Send Successfully
+                toast: true
+                response_type: success
+  /auth/set-password:
+    post:
+      tags:
+        - Auth apis
+      summary: Set Password
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                password: Test@123
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '143'
+            ETag:
+              schema:
+                type: string
+                example: W/"8f-ZjaawxCamOFaH6z0kRdX7ZUIQuw"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Mon, 03 Apr 2023 13:45:28 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData:
+                  data: null
+                  message: Forgot password successfully
+                message: Forgot Password Successfully
+                toast: true
+                response_type: success
+  /auth/change-password:
+    post:
+      tags:
+        - Auth apis
+      summary: Change Password
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                oldPassword: Test@1234
+                newPassword: Test@123
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '95'
+            ETag:
+              schema:
+                type: string
+                example: W/"5f-QJgHq+4cJMbxVk038bk9t96DnZs"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Mon, 03 Apr 2023 13:43:30 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData: null
+                message: Password Changed Successfully
+                toast: false
+                response_type: success
+  /auth/otp-verification:
+    post:
+      tags:
+        - Auth apis
+      summary: Otp Verification
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                email: adminUser@mailinator.com
+                type: FORGOT
+                otp: '472841'
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '293'
+            ETag:
+              schema:
+                type: string
+                example: W/"125-j2Tx8E8vacJw7ZNcCI6oimAxK4U"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Tue, 16 May 2023 08:16:40 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData:
+                  verified: true
+                  access_token: >-
+                    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluVXNlckBtYWlsaW5hdG9yLmNvbSIsInVzZXJJZCI6MSwiaWF0IjoxNjg0MjI1MDAwLCJleHAiOjE2ODQzMTE0MDB9.aq6H3C2tm48yLQ4gm2wdV9l6YjNpGuWZPzZiBPQVCYQ
+                message: ''
+                toast: true
+                response_type: success
+  /auth/forgot-password:
+    post:
+      tags:
+        - Auth apis
+      summary: Forgot Password
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                email: adminUser@mailinator.com
+                type: FORGOT
+      security:
+        - noauthAuth: []
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '92'
+            ETag:
+              schema:
+                type: string
+                example: W/"5c-k+vF3DBFqI8jMuh4JMlhr5MYx+M"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Tue, 16 May 2023 08:15:37 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData: []
+                message: Otp Send Successfully
+                toast: true
+                response_type: success
+  /auth/login:
+    post:
+      tags:
+        - Auth apis
+      summary: Login User
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              example:
+                email: adminUser@mailinator.com
+                password: Test@123
+      security:
+        - noauthAuth: []
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            ETag:
+              schema:
+                type: string
+                example: W/"431-cL0b13sBdSIBC5AxNKMB8Hlk6Wc"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Content-Encoding:
+              schema:
+                type: string
+                example: gzip
+            Date:
+              schema:
+                type: string
+                example: Tue, 16 May 2023 08:14:29 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+            Transfer-Encoding:
+              schema:
+                type: string
+                example: chunked
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData:
+                  user:
+                    fullName: ADMIN Test
+                    fullPhoneNumber: +91 1234567890
+                    id: 1
+                    email: adminUser@mailinator.com
+                    firstName: ADMIN
+                    lastName: Test
+                    username: null
+                    about: null
+                    enrollNumber: null
+                    education: null
+                    pastTeachingExperience: null
+                    instituteName: null
+                    address: null
+                    zipCode: null
+                    country: null
+                    location: null
+                    code: '+91'
+                    phone: '1234567890'
+                    password: >-
+                      $2b$10$acaP6D7P94k/dltSgVCEAujHZ2PglHIyUtZ/IOn1Dl151Pmyzh/eq
+                    addedBy: null
+                    dateFormat: MM/dd/yyyy
+                    timezone: null
+                    birthDate: null
+                    gender: null
+                    adminPassword: null
+                    skills: null
+                    position: null
+                    notificationPreference: false
+                    status: ACTIVE
+                    role: ADMIN
+                    verified: true
+                    profileImage: null
+                    createdAt: '2023-05-10T04:40:37.000Z'
+                    updatedAt: '2023-05-11T06:02:32.000Z'
+                    deletedAt: null
+                  access_token: >-
+                    eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluVXNlckBtYWlsaW5hdG9yLmNvbSIsInVzZXJJZCI6MSwiaWF0IjoxNjg0MjI0ODY5LCJleHAiOjE2ODQzMTEyNjl9.T_0_E_CmE_G0sFKjkiVbUHvKYPUxXOSoSDFn5Y2sLMk
+                message: User Logged In Successfully
+                toast: false
+                response_type: success
+  /user:
+    post:
+      tags:
+        - User
+      summary: Add User
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                firstName:
+                  type: string
+                  example: dev helper18
+                lastName:
+                  type: string
+                  example: dev helper18
+                email:
+                  type: string
+                  example: devhelper18@mail.com
+                phoneNumber:
+                  type: string
+                  example: '{"code": "+91", "no": "101010101" }'
+                birthDate:
+                  type: string
+                  example: '2023-04-12 10:01:29.363'
+                website:
+                  type: string
+                  example: ' string;'
+                facebook:
+                  type: string
+                  example: ' string;'
+                twitter:
+                  type: string
+                  example: ' string;'
+                linkedIn:
+                  type: string
+                  example: ' string;'
+                profile:
+                  type: string
+                  format: binary
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '589'
+            ETag:
+              schema:
+                type: string
+                example: W/"24d-FkESmtR/mVzOD/n19EcDnlMJoF4"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Mon, 10 Apr 2023 12:11:16 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              examples:
+                example-0:
+                  summary: Add User
+                  value:
+                    responseData:
+                      id: 9
+                      name: dev helper
+                      email: devhelper@mail.com
+                      code: '+91'
+                      phoneNumber: '585555555'
+                      password: >-
+                        $2b$10$G893dcf1jdJrAoWBZS4mLelmjanQW.1djCdVl0Si7Kmo8xe8hYexS
+                      accountType: simple
+                      profileImage: null
+                      birthDate: null
+                      status: active
+                      role: user
+                      type: Helper
+                      parentId: 2
+                      createdAt: '2023-04-10T12:11:12.499Z'
+                      updatedAt: '2023-04-10T12:11:12.499Z'
+                      deletedAt: null
+                    message: User Created Successfully
+                    toast: true
+                    response_type: success
+                example-1:
+                  summary: Add User lts
+                  value:
+                    responseData:
+                      fullName: dev helper18
+                      fullPhoneNumber: '12121010'
+                      dateFormat: MM/dd/yyyy
+                      notificationPreference: false
+                      verified: false
+                      id: 15
+                      firstName: dev
+                      lastName: helper18
+                      email: devhelper18@mail.com
+                      phone: '12121010'
+                      birthDate: '2023-04-12T04:31:29.363Z'
+                      website: string;
+                      facebook: string;
+                      twitter: string;
+                      linkedIn: string;
+                      status: INACTIVE
+                      role: STUDENT
+                      updatedAt: '2023-05-16T09:34:46.442Z'
+                      createdAt: '2023-05-16T09:34:46.442Z'
+                    message: ''
+                    toast: true
+                    response_type: success
+    get:
+      tags:
+        - User
+      summary: Get User
+      security:
+        - apikeyAuth: []
+      parameters:
+        - name: limt
+          in: query
+          schema:
+            type: integer
+          example: '10'
+        - name: page
+          in: query
+          schema:
+            type: integer
+          example: '1'
+        - name: 'null'
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            ETag:
+              schema:
+                type: string
+                example: W/"87b-Hq6TwsynHHrbnW0JPU6J3qgSg78"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Content-Encoding:
+              schema:
+                type: string
+                example: gzip
+            Date:
+              schema:
+                type: string
+                example: Mon, 10 Apr 2023 12:19:04 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+            Transfer-Encoding:
+              schema:
+                type: string
+                example: chunked
+          content:
+            application/json:
+              schema:
+                type: object
+              examples:
+                example-0:
+                  summary: Get All Family Member using family owner id
+                  value:
+                    data:
+                      data:
+                        - id: 8
+                          name: User ash
+                          email: userash@mail.com
+                          code: '+91'
+                          phoneNumber: '555555555'
+                          password: >-
+                            $2b$10$8Ygit2x.EEgysa5EGRBbFup5rlQHWIdJfvGdhcYcjpU33KlduLhSm
+                          accountType: simple
+                          profileImage: null
+                          birthDate: null
+                          status: active
+                          role: user
+                          type: Brother
+                          notificationPreference: false
+                          socialToken: null
+                          socialType: manual
+                          isOTPVerify: false
+                          paymentCustomerId: null
+                          parentId: 2
+                          createdAt: '2023-04-10T12:10:16.692Z'
+                          updatedAt: '2023-04-10T12:10:16.692Z'
+                          deletedAt: null
+                          _count:
+                            GeneralTaskAssignToUsers: 0
+                            GroceryAssignToUsers: 0
+                            MealAssignToUsers: 0
+                            MedicalAssignToUsers: 0
+                            TravelCheckListAssignToUsers: 0
+                          countData: 0
+                        - id: 4
+                          name: Family Owner
+                          email: userd@mail.com
+                          code: '+91'
+                          phoneNumber: '777777178'
+                          password: >-
+                            $2b$10$ZU9j2JA8ptUf7YE7KR3xT.QfgyuEZhSoqsoHoPYiFHvPSIaxxwb76
+                          accountType: simple
+                          profileImage: null
+                          birthDate: null
+                          status: active
+                          role: user
+                          type: bro
+                          notificationPreference: false
+                          socialToken: null
+                          socialType: manual
+                          isOTPVerify: false
+                          paymentCustomerId: null
+                          parentId: 2
+                          createdAt: '2023-04-07T08:27:10.793Z'
+                          updatedAt: '2023-04-07T11:10:33.951Z'
+                          deletedAt: null
+                          _count:
+                            GeneralTaskAssignToUsers: 0
+                            GroceryAssignToUsers: 0
+                            MealAssignToUsers: 0
+                            MedicalAssignToUsers: 0
+                            TravelCheckListAssignToUsers: 0
+                          countData: 0
+                        - id: 3
+                          name: sasd
+                          email: user1@mail.com
+                          code: '+91'
+                          phoneNumber: '9558175567'
+                          password: >-
+                            $2b$10$ykilUXb2emwVPJHBlzZyC.TKfa7zMqi3C3Lq6obacSb9miPKRRupW
+                          accountType: simple
+                          profileImage: /profile/profile_1680583928422.png
+                          birthDate: '2023-04-04 14:18:22.119'
+                          status: active
+                          role: user
+                          type: Helper
+                          notificationPreference: false
+                          socialToken: null
+                          socialType: manual
+                          isOTPVerify: false
+                          paymentCustomerId: null
+                          parentId: 2
+                          createdAt: '2023-04-04T04:56:49.959Z'
+                          updatedAt: '2023-04-07T09:11:21.048Z'
+                          deletedAt: null
+                          _count:
+                            GeneralTaskAssignToUsers: 0
+                            GroceryAssignToUsers: 0
+                            MealAssignToUsers: 0
+                            MedicalAssignToUsers: 1
+                            TravelCheckListAssignToUsers: 0
+                          countData: 1
+                      count: 3
+                      currentPage: 1
+                      limit: 10
+                      lastPage: 1
+                    message: User Fetched Successfully
+                    toast: true
+                    response_type: success
+                example-1:
+                  summary: Get User By Id
+                  value:
+                    data:
+                      id: 2
+                      name: Ashvin patel
+                      email: familyowner@mail.com
+                      code: '+91'
+                      phoneNumber: '777777778'
+                      password: >-
+                        $2b$10$1ALiDu/zLFuxZwqMWdyHxu1Fld.FuLh7M9CEBoaONt5cCkWeY93GW
+                      accountType: simple
+                      profileImage: null
+                      birthDate: '2023-04-04 14:18:22.119'
+                      status: active
+                      role: familyOwner
+                      type: familyOwner
+                      notificationPreference: false
+                      socialToken: null
+                      socialType: manual
+                      isOTPVerify: true
+                      paymentCustomerId: null
+                      parentId: null
+                      createdAt: '2023-04-04T04:54:57.049Z'
+                      updatedAt: '2023-04-07T09:15:20.429Z'
+                      deletedAt: null
+                      _count:
+                        GeneralTaskAssignToUsers: 7
+                        GroceryAssignToUsers: 1
+                        MealAssignToUsers: 19
+                        MedicalAssignToUsers: 50
+                        TravelCheckListAssignToUsers: 7
+                      countData: 84
+                    message: User Fetched Successfully
+                    toast: true
+                    response_type: success
+  /user/{id}:
+    put:
+      tags:
+        - User
+      summary: Update Users
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                profile:
+                  type: string
+                  format: binary
+                name:
+                  type: string
+                  example: User 2
+                birthDate:
+                  type: string
+                  example: '2023-04-10 10:01:29.363'
+                notificationPreference:
+                  type: boolean
+                  description: true/false
+                  example: 'true'
+                type:
+                  type: string
+                  example: Helper
+      security:
+        - apikeyAuth: []
+      parameters:
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '1'
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '606'
+            ETag:
+              schema:
+                type: string
+                example: W/"25e-wLu6ZxS0q0G8UTPR7SdiRqX97NE"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Mon, 10 Apr 2023 12:17:17 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData:
+                  id: 13
+                  name: User 2
+                  email: devhelper@mail.com
+                  code: '+91'
+                  phoneNumber: '585555555'
+                  password: $2b$10$0kvCdbN0lzgWMN3PDdKZz.YF3Oi61aq.m.SsZ4bZ6655eXicWzoGq
+                  accountType: simple
+                  profileImage: null
+                  birthDate: '2023-04-10 10:01:29.363'
+                  status: active
+                  role: user
+                  type: Helper
+                  notificationPreference: true
+                  socialToken: null
+                  socialType: manual
+                  isOTPVerify: false
+                  paymentCustomerId: null
+                  parentId: 2
+                  createdAt: '2023-04-10T12:16:59.698Z'
+                  updatedAt: '2023-04-10T12:17:17.797Z'
+                  deletedAt: null
+                message: User Updated Successfully
+                toast: true
+                response_type: success
+    delete:
+      tags:
+        - User
+      summary: Delete User
+      security:
+        - apikeyAuth: []
+      parameters:
+        - name: id
+          in: path
+          schema:
+            type: integer
+          required: true
+          example: '9'
+      responses:
+        '200':
+          description: OK
+          headers:
+            Access-Control-Allow-Origin:
+              schema:
+                type: string
+                example: '*'
+            Content-Security-Policy:
+              schema:
+                type: string
+                example: >-
+                  default-src 'self';base-uri
+                  'self';block-all-mixed-content;font-src 'self' https:
+                  data:;frame-ancestors 'self';img-src 'self' data:;object-src
+                  'none';script-src 'self';script-src-attr 'none';style-src
+                  'self' https: 'unsafe-inline';upgrade-insecure-requests
+            X-DNS-Prefetch-Control:
+              schema:
+                type: string
+                example: 'off'
+            Expect-CT:
+              schema:
+                type: string
+                example: max-age=0
+            X-Frame-Options:
+              schema:
+                type: string
+                example: SAMEORIGIN
+            Strict-Transport-Security:
+              schema:
+                type: string
+                example: max-age=15552000; includeSubDomains
+            X-Download-Options:
+              schema:
+                type: string
+                example: noopen
+            X-Content-Type-Options:
+              schema:
+                type: string
+                example: nosniff
+            X-Permitted-Cross-Domain-Policies:
+              schema:
+                type: string
+                example: none
+            Referrer-Policy:
+              schema:
+                type: string
+                example: no-referrer
+            X-XSS-Protection:
+              schema:
+                type: integer
+                example: '0'
+            Content-Type:
+              schema:
+                type: string
+                example: application/json; charset=utf-8
+            Content-Length:
+              schema:
+                type: integer
+                example: '89'
+            ETag:
+              schema:
+                type: string
+                example: W/"59-Niu51d2KrymnvXUm9xSdRU5sXnw"
+            Vary:
+              schema:
+                type: string
+                example: Accept-Encoding
+            Date:
+              schema:
+                type: string
+                example: Mon, 10 Apr 2023 12:19:24 GMT
+            Connection:
+              schema:
+                type: string
+                example: keep-alive
+            Keep-Alive:
+              schema:
+                type: string
+                example: timeout=5
+          content:
+            application/json:
+              schema:
+                type: object
+              example:
+                responseData: {}
+                message: User Deleted Successfully
+                toast: false
+                response_type: success
+  /newsAndAnnouncement:
+    post:
+      tags:
+        - News and announcements Category
+      summary: news and announcement
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  example: data
+                shortDescription:
+                  type: string
+                  example: data
+                description:
+                  type: string
+                  example: data
+                image:
+                  type: string
+                  format: binary
+                readTime:
+                  type: string
+                  example: 12M
+                categories:
+                  type: string
+                  example: '[1,2]'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /newsAndAnnouncement/10:
+    put:
+      tags:
+        - News and announcements Category
+      summary: news and announcement
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  example: data
+                shortDescription:
+                  type: string
+                  example: data
+                description:
+                  type: string
+                  example: data
+                image:
+                  type: string
+                  format: binary
+                readTime:
+                  type: string
+                  example: 12M
+                categories:
+                  type: string
+                  example: '[1,2]'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}

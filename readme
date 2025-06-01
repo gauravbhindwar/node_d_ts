@@ -1,0 +1,10 @@
+# install all packages
+
+# run sequelize cmd
+
+npx sequelize-cli db:migrate
+
+# run seed
+
+  - seed:admin
+  - seed:smtp
